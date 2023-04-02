@@ -8,7 +8,7 @@
     <string name="dial_log_message">Tidak dapat menyelesaikan aplikasi untuk Maksud ACTION_DIAL.</string>
     <string name="action_language">Bahasa</string>
     <string name="expired_label">Tanggal kadaluarsa</string>
-    <string name="btn_submission">Kirim di sini!Kirim di sini!</string>
+    <string name="btn_submission">Kirim di sini!</string>
     <string name="text_input">Harga per item :</string>
     <string name="text_price">Total harga untuk 100 pax :</string>
 </resources>
