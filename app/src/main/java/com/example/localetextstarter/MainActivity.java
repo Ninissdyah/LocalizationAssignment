@@ -17,6 +17,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.text.DateFormat;
 import java.text.NumberFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 int totalHarga = harga*100;
 
                 //format total harga
-                String format = NumberFormat.getCurrencyInstance().format(totalHarga);
+                Locale current = getResources().getConfiguration().locale;
+                String format = NumberFormat.getCurrencyInstance(current).format(totalHarga);
                 price.setText(format);
             }
         });
